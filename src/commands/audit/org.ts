@@ -14,7 +14,7 @@ export default class Org extends SfdxCommand {
   public static description = messages.getMessage('commandDescription');
 
   public static examples = [
-  `$ sfdx audit:org -u sushilidp@dev.com --howmany 3`
+  `$ sfdx audit:org -u ORG_USER_NAME --howmany 3`
   ];
 
   public static args = [{name: 'file'}];
