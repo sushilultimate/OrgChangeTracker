@@ -24,7 +24,6 @@ export default class Org extends SfdxCommand {
   
   };
 
-
   // Comment this out if your command does not require an org username
   protected static requiresUsername = true;
 
@@ -47,9 +46,6 @@ export default class Org extends SfdxCommand {
       Display: string;
       createddate:Date;
     }   
-
-
-
     let outputString = `Hello`;
 
       // Query the org
