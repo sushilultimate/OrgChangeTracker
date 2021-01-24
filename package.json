@@ -3,7 +3,8 @@
   "description": "plugin for tracking org changes",
   "version": "0.0.0",
   "author": "Sushil Kumar",
-  "bugs": "https://github.com/sushilgit/orgChangesTracker/issues",
+  "bugs": "https://github.com/sushilgit/OrgChangeTracker/issues",
+  "publisher": "Sushil Kumar",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -28,7 +29,8 @@
     "tslint": "^5"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=8.0.0",
+    "vscode": "^1.52.1"
   },
   "files": [
     "/lib",
@@ -36,7 +38,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/sushilgit/orgChangesTracker",
+  "homepage": "https://github.com/sushilgit/OrgChangeTracker",
   "keywords": [
     "sfdx-plugin"
   ],
@@ -53,7 +55,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "sushilgit/orgChangesTracker",
+  "repository": "sushilgit/OrgChangeTracker",
   "scripts": {
     "lint": "tslint --project . --config tslint.json --format stylish",
     "postpack": "rm -f oclif.manifest.json",

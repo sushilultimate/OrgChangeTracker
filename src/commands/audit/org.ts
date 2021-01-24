@@ -1,5 +1,5 @@
 import { flags, SfdxCommand } from '@salesforce/command';
-import { Messages, SfdxError } from '@salesforce/core';
+import { Messages } from '@salesforce/core';
 import { AnyJson } from '@salesforce/ts-types';
 
 // Initialize Messages with the current plugin directory
@@ -55,8 +55,9 @@ export default class Org extends SfdxCommand {
         setOfChanges.add(audit.Display);
       }
       
+      
       for(let change of setOfChanges){
-        this.ux.log(change);
+        this.ux.log(''+change);
       }
 
     // Return an object to be displayed with --json

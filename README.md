@@ -8,4 +8,6 @@ sample command  - sfdx audit:org -u ORG_USER_NAME --howmany 3
 
 Plugin installation instructions
 
-TO BE UPDATED SOON
+Download the orgChangesTracker-0.0.0.vsix from repository and open terminal window in vscode or separately. Run below command(make sure the vsix file is in the same directory)
+
+code --install-extension orgChangesTracker-0.0.0.vsix
